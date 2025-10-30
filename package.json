@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "pull": "git pull github master",
+    "push": "git add . && git commit -m 'x' && git push github master",
+    "push-f": "git reset 97277f839a7eec6957c7c52099aaebc1c47969e9 && git add . && git commit -m 'x' && git push github master -f"
+  },
+  "dependencies": {}
+}
